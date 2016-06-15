@@ -1,0 +1,166 @@
+body {
+	background:white;
+}
+
+#container {
+	width:1000px;
+	margin: 0 auto;
+	border-left:1px solid #667777;
+	border-right:1px solid #667777;
+}
+
+#menu {
+	margin:0;
+	text-align:center;
+	padding:6px;
+	border-top:2px solid #F9B903;
+	border-bottom:2px solid #F9B903;
+}
+
+#menu li {
+	list-style-type:none;
+	display:inline-block;
+	width:164px;
+}
+
+#menu li a {
+	text-decoration:none;
+	color:#fff;
+	padding:5px;
+	padding-left:5px;
+	padding-right:5px;
+	display:block;
+	font:bold 14px Arial,Helvetica,sans-serif;
+}
+
+#menu li a:hover {
+	background:white;
+	color:#00599D;
+}
+	
+#header {
+	background:#07939F;
+}	
+
+/*#31376F */
+
+#content {
+	width: 650px;
+	float:left;
+	border-right:1px solid #667777;
+}
+
+#galery{
+	width: 650px;
+	float:left;
+	border-right:1px solid #667777;
+}
+
+#content .artikel {
+	margin: 0px 20px 0px 20px; 
+}
+
+#content .art {
+	margin: 0px 20px 0px 20px; 
+}
+#content .artikel h1 {
+	font-size:19px;
+	background:#cecece;
+	padding:0px 5px 0px 5px;
+	border:1px solid #5998B1;
+	text-transform:capitalize;
+	font-family: 'segoe print';
+	color:#0D1BBD;
+}
+
+#galery .art h1 {
+	font-size:19px;
+	background:#cecece;
+	padding:0px 5px 0px 5px;
+	border:1px solid #5998B1;
+	text-transform:capitalize;
+	font-family: 'segoe print';
+	color:#0D1BBD;
+}
+#logo{
+width:400px;
+height:150px;
+margin-top:-140px;
+z-index:9998;
+position:absolute;
+margin-left:1px;
+
+}
+#content .artikel b {
+	color:#184AC2;
+	font-size:13px;
+	font-family: 'segoe print';
+	
+}
+
+#galery .art b {
+	color:#184AC2;
+	font-size:13px;
+	font-family: 'segoe print';
+	
+}
+#galery .art img{
+	float:left;
+	margin-right:10px;
+	border-radius:20px;
+
+}
+#content .klaran img {
+	float:center;
+
+}
+#content .artikel img {
+	float:left;
+	margin-right:10px;
+	border-radius:20px;
+	height:215px;
+	width:250px;
+}
+
+#pont{
+font:12px/18px Arial,Helvetica,sans-serif;
+}
+#content .artikel p {
+	text-align:justify;
+	color:#454F53;
+}
+
+
+#galery .art p {
+	text-align:justify;
+	color:#454F53;
+}
+#sidebar {
+	float:right;
+	width:345px;
+	
+}
+
+#sidebar .sub-sidebar h2 {
+	margin:15px 15px 0px 15px;
+	background:#366874;
+	color:#fff;
+	padding:5px;
+	font-size:18px;
+	border:1px solid #CAD42D;
+}
+
+#sidebar .sub-sidebar a {
+	text-decoration:none;
+}
+
+#sidebar .sub-sidebar a:hover {
+	color:red;
+}
+
+#footer {
+	text-align:center;
+	padding:15px;
+	color:#fff;
+}
+
