@@ -1,0 +1,386 @@
+<!doctype html>
+
+
+
+    /* Large desktop */
+
+    @media (min-width: 1200px) { ... }
+
+     
+
+    /* Portrait tablet to landscape and desktop */
+
+    @media (min-width: 768px) and (max-width: 979px) { ... }
+
+
+    
+
+    /* Landscape phone to portrait tablet */
+
+    @media (max-width: 767px) { ... }
+
+	
+
+body {
+
+	font-family: 'Source Sans Pro', sans-serif;
+
+	background-color:#fff;
+}      
+
+
+
+/* Nav Bar 
+
+=============*/
+
+
+
+
+
+li.foti a,
+
+li.tips a,
+
+li.tutor a,
+
+li.home a{
+	width: 120px;
+	height: 65px;
+	color: white!important;
+	text-shadow: none!important;
+	font-size: 25px;
+	line-height: 52px;
+}
+
+
+
+li.home a{
+	background: #5DADE2 !important;
+}
+li.tutor a{
+	background: #E95E4F !important;
+}
+li.tips a{
+	background: #1ABC9C !important;
+}
+li.foti a{
+	background: #F39C12 !important;
+}
+
+li.foti,
+li.tutor,
+li.tips,	
+li.home {
+	margin-right: 7px;
+	margin-top:7px;
+}	
+
+li.home.active {
+	background: #85c2eb;
+	margin-right: 7px;	
+}
+
+li.home a:hover {
+	background: #88c3ea!important;
+}
+
+li.tips a:hover {
+	background: #28e1bd!important;
+}
+
+li.tutor a:hover {
+	background: #ef877c!important;
+}
+
+li.foti a:hover {
+	background: #f5b043!important;
+}
+
+.tutor{
+	background-color:#D341F0;
+}
+
+.tips{
+	background-color:#87F569;
+}
+
+.foti{
+	background-color:orange;
+}
+
+.uluk{
+	float:right;
+	padding-top:40px;
+	
+}
+
+.navbar-inner{
+	text-align:center;
+	
+}
+
+/*Blok Tutorial*/
+h3.titulu {
+	font-size: 35px;
+	font-weight: 300;
+	color: #0d72bb;
+}
+
+.span3{
+	border-radius:35px;
+	background-color:#AEE3EB;
+	border:90;
+	color:black;
+}
+
+
+div.span3.profile {
+	padding: 15px;
+}
+
+div.span9.intro {
+	padding-right: 67px;
+	padding-top:67px;
+	text-align:justify;
+}	
+
+
+
+#foto{
+	border-radius: 120px;
+	width: 2px;
+}	
+
+h3#Name {
+	text-align: left;
+	font-weight: 800;
+	font: 16px 'Parisienne', cursive;
+}
+
+.profile-icon {
+	font-size: 19px;
+	padding-right: 9px;
+}
+
+span.icon-block {
+	display: inline-block;
+	width: 29px;
+}
+
+#profile-list li {
+	list-style: none;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	font-size: 12px;
+}
+	
+ul#profile-list {
+	margin-left: 0px;
+}
+	
+#profile-list li a:hover{
+	text-decoration: none;
+}
+
+.container-fluid{
+	/*background-image:url(home.jpg);*/
+	color:black-white;
+	padding:0;
+	margin:2;
+	background-color:#F2F2F2;
+}
+
+/*Info*/
+
+.btn{
+	font-size:18px;
+}
+
+.label{
+	margin:8px;
+	border:solid 1px #D341F0;
+	font-size:14px;
+}
+
+.label-warning{
+	float:right;
+}
+
+/* Titulo 
+=============*/
+
+.karuk{
+	float:left;
+}
+
+.hero-unit{
+	/*background-color:#FF80CA;*/
+	text-align:center;
+	margin-bottom: -1px;
+	padding-top: 25px;
+	padding-bottom: 200px;
+}
+
+
+div.logo {	
+	float: left;
+}
+
+div.logo img {
+	width: 400px;
+}
+
+/*footer*/	
+.okos{
+	background-color:#FF80CA;
+}
+
+.footer{
+	font-size:12px;
+	text-align:center;
+	letter-spacing:0px;
+}
+
+.inside{
+	padding-left:10px;
+	/*background-image:url(home.jpg);*/
+	position:relative;
+	height:600px;
+}
+
+
+
+.container{
+	/*background-image:url(home.jpg);*/
+	text-align:justify;
+	background-color:#F2F2F2;
+}
+
+
+
+
+/*Side Bar content*/
+
+.kik{
+	font-size:10px;
+	text-align:justify;
+	color:#F2F2F2;
+}
+
+
+.nav-tabs{
+	width:190px;
+	position:left;
+	padding-right:10px;
+	color:black;
+}
+
+
+.nav-stacked{
+	color:black;
+}
+
+
+.span4{
+	margin-top: 15px;
+}
+
+.span10{
+	letter-spacing:0.5px;
+	font-size:18px;
+}
+
+
+/* www.Jamur-Inside.tls */
+
+.pdf{
+	width:16px;
+}
+
+.caption{
+	font-size:18px;
+	background-color:#F2F2F2;
+}
+
+
+.btn-primary{
+	font-size:12px;
+}
+
+
+
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) { 
+
+.hero-unit{
+
+background-color:#FF80CA;
+
+color:black-white;
+
+/*background-color:white;*/
+
+text-align:center;
+
+}
+
+ }
+
+
+
+/*=====Tutorial Styling=======*/
+	
+div.row-fluid.tut {
+	margin-top: 15px;
+
+}
+
+div.row-fluid.Down {
+	margin-top: 15px;
+}
+
+
+
+	
+div.thumbnail {
+	min-height: 200px;
+	background-color: white;
+	border-radius: 12px;
+	padding:0px;
+	
+}
+	
+div.thumbnail h4 {
+	color: black;
+	background-color:#c0c0c0;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	
+	
+}
+	
+div.thumbnail p {
+	text-align:justify;
+	margin:5px;
+}
+	
+p.sorin {
+	text-align: right;
+	padding-right: 8px;
+}
+	
+
+
+
+
